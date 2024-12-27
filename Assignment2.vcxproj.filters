@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Zoo.h">
+      <Filter>zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Cow.h">
+      <Filter>zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>zoo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>tool\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Cow.cpp">
+      <Filter>zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Zoo.cpp">
+      <Filter>zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>zoo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tool">
+      <UniqueIdentifier>{5bb366ab-84e0-4665-b553-ee23ca492f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\pch">
+      <UniqueIdentifier>{e897565c-f4f5-4fd0-ae19-b1c0bec92f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zoo">
+      <UniqueIdentifier>{cc15bc9f-481a-4ddf-9174-28c4ad0abaa2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
